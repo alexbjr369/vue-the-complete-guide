@@ -12,7 +12,7 @@ const app = Vue.createApp({
     saveInput(event) {
       this.userInput = event.target.value;
     },
-    confirmInput(event) {
+    confirmInput() {
       this.confirmedInput = this.userInput;
     },
   },
