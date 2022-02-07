@@ -3,7 +3,7 @@ const app = Vue.createApp({
     return {
       name: 'John',
       age: 36,
-      imageUrl: 'http://placehold.it/320x150'
+      imageUrl: 'http://placehold.it/320x150',
     };
   },
   methods: {
