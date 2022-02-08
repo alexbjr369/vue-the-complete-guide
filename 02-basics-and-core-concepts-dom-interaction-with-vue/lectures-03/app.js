@@ -5,13 +5,15 @@ const app = Vue.createApp({
       name: '',
     };
   },
-  methods: {
-    outputFullName() {
+  computed: {
+    fullName() {
       if (this.name === '') {
         return '';
       }
       return `${this.name} Doe`;
     },
+  },
+  methods: {
     add(num) {
       this.counter = this.counter + num;
     },
