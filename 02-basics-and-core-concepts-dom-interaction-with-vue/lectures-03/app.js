@@ -12,9 +12,6 @@ const app = Vue.createApp({
       }
       return `${this.name} Doe`;
     },
-    setName(event) {
-      this.name = event.target.value;
-    },
     add(num) {
       this.counter = this.counter + num;
     },
